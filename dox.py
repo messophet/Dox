@@ -129,7 +129,7 @@ def fetch(i):
 ############################################################
 
 class FVFetcher(threading.Thread):
-    """ This function will combine chunked SQL blocks
+    """ This class will combine chunked SQL blocks
         with page-indexed user info from friendly vendor
     
     """
